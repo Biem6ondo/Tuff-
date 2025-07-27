@@ -26,7 +26,7 @@ local Window = Rayfield:CreateWindow({
 
 local Tab = Window:CreateTab("Info", 0)
 
-Tab:CreateParagraph({Title = "Info", Content = "neoxhackbiem22 or ACE1991ACE\nLast Updated: 2025/7/24"})
+Tab:CreateParagraph({Title = "Info", Content = "neoxhackbiem22 or ACE1991ACE\nLast Updated: 2025/7/27"})
 
 local Tab = Window:CreateTab("Main", 10814531047)
 

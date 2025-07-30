@@ -17,12 +17,12 @@ end)
 
 -- Haptic
 
-local function HapticClick(0.04)
+local function HapticClick(time)
 local HapticService = game:GetService("HapticService")
 
 if HapticService:IsVibrationSupported(Enum.UserInputType.Gamepad1) then
 	HapticService:SetMotor(Enum.UserInputType.Gamepad1, Enum.VibrationMotor.Large, 1)
-	task.wait(time)
+	task.wait(time + 0.06)
 	HapticService:SetMotor(Enum.UserInputType.Gamepad1, Enum.VibrationMotor.Large, 0)
 end
 end
